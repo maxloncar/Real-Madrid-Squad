@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "674961153025",
+    "firebase_url": "https://real-madrid-player-database.firebaseio.com",
+    "project_id": "real-madrid-player-database",
+    "storage_bucket": "real-madrid-player-database.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:674961153025:android:fa63b24bfe20e5fb263400",
+        "android_client_info": {
+          "package_name": "com.example.realmadridplayerdatabase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "674961153025-47tvf82ipo8nomk846pv0hf4lk872e2v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.realmadridplayerdatabase",
+            "certificate_hash": "1ae4740fc50b4d0b9b1a18561c1f6a7484c81195"
+          }
+        },
+        {
+          "client_id": "674961153025-buuas5u14nn5kdgf48p0n3m5n5q5eobu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlSXN5k9cpc46tEdDIf4rR4rtomGmxtrA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "674961153025-buuas5u14nn5kdgf48p0n3m5n5q5eobu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

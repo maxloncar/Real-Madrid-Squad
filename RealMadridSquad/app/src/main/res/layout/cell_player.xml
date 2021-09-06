@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/cardViewHeight"
+        app:cardElevation="@dimen/cardElevation"
+        android:layout_margin="@dimen/cardMargin"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="4.8"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ivPlayer"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3.8"
+                android:src="@drawable/modric"
+                android:background="@drawable/blue_background"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:weightSum="2"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.3"
+                    android:padding="@dimen/layoutPadding"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Name"
+                        android:textSize="@dimen/nameSize"
+                        android:maxLines="1"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/tvPosition"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Position"
+                        android:textSize="@dimen/textSize"
+                        android:maxLines="1"/>
+
+                    <TextView
+                        android:id="@+id/tvBirthDate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Date of birth"
+                        android:textSize="@dimen/textSize"
+                        android:maxLines="1"/>
+
+                    <TextView
+                        android:id="@+id/tvBirthPlace"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Place of birth"
+                        android:textSize="@dimen/textSize"
+                        android:maxLines="1"/>
+
+                    <TextView
+                        android:id="@+id/tvHeight"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Height"
+                        android:textSize="@dimen/textSize"
+                        android:maxLines="1"/>
+
+                    <TextView
+                        android:id="@+id/tvDescription"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Description"
+                        android:textSize="@dimen/textSize"
+                        android:maxLines="1"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.7"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/ivCountry"
+                        android:src="@drawable/croatia"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Real Madrid Squad</string>
+    <string name="clubDescription">Real Madrid CF, commonly referred to as Real Madrid, is a Spanish professional football club based in Madrid. Real Madrid was recognised as the FIFA Club of the 20th Century, and received the FIFA Centennial Order of Merit. The club was also awarded Best European Club of the 20th Century by the IFFHS. </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

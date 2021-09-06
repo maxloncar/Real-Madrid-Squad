@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailActivity">
+
+    <ImageView
+        android:id="@+id/ivDetailPlayer"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/imageDetailHeight"
+        android:src="@drawable/modric"
+        android:background="@drawable/blue_background" />
+
+    <TextView
+        android:id="@+id/tvDetailDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/layoutPadding"
+        android:padding="@dimen/detailPadding"
+        android:text="Player Description"
+        android:textSize="@dimen/nameSize" />
+
+</LinearLayout>

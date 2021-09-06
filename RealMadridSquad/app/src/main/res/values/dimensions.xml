@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cardViewHeight">550dp</dimen>
+    <dimen name="cardElevation">3dp</dimen>
+    <dimen name="cardMargin">4dp</dimen>
+    <dimen name="layoutPadding">10dp</dimen>
+    <dimen name="nameSize">17sp</dimen>
+    <dimen name="textSize">10sp</dimen>
+    <dimen name="detailPadding">20dp</dimen>
+    <dimen name="logoHeight">300dp</dimen>
+    <dimen name="imageDetailHeight">400dp</dimen>
+    <dimen name="splashScreenLogo">200dp</dimen>
+</resources>
